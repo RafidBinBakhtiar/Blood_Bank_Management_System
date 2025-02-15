@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Lato, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.menu-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: transparent;
+}
+
+.img_edit {
+    width: 600px;
+    height: 800px;
+    object-fit: cover;
+}
+
+.textsize {
+    color: black;
+    font-size: 40px;
+    padding: 0;
+}
+
+.main-menu {
+    padding-left: 50px;
+    max-width: 600px;
+}
+
+a.btn-signin {
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    background-color: #ff0037;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+a.btn-signin:hover {
+    background-color: #cc002e;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.footer_container {
+    text-align: center;
+}
+
+.primaryColor {
+    color: #ff0037;
+}
+
+.footer_menu h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.insta_para {
+    color: #cccccc;
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.h1footer small {
+    font-size: 12px;
+}
+
+.dealh1 {
+    font-size: 36px;
+    color: #272727;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.dealPara {
+    font-size: 20px;
+    color: #555;
+    margin: 0 100px;
+    text-align: center;
+}
